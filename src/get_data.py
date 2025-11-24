@@ -6,4 +6,4 @@ from datasets import load_dataset
 ds = load_dataset("Tobi-Bueck/customer-support-tickets")
 df = ds["train"].to_pandas()
 
-print(df.head())
+print(df.info())
